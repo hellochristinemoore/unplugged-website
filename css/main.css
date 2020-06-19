@@ -180,9 +180,8 @@ footer .copyright {
 
 
 /* ==========================================================================
-   Home Page
+    Mobile Styles - Homepage
    ========================================================================== */
-/* -------------------- Mobile Styles - Homepage -------------------- */
 /* Home page - Hero Section */
 .hero-area {
   display: flex;
@@ -255,7 +254,7 @@ aside .content-wrapper {
 }
 
 /* ==========================================================================
-   About Page
+    Mobile Styles - About Page
    ========================================================================== */
 
 /* About page - Mission Section */
@@ -275,9 +274,9 @@ aside .content-wrapper {
 }
 
 /* ==========================================================================
-   FAQ Page
+    Mobile Styles - FAQ Page
    ========================================================================== */
-
+   
 /* FAQ page - FAQ secion */
 .faq {
   display: flex;
@@ -387,9 +386,9 @@ aside .content-wrapper {
 @media only screen and (min-width: 768px) {    /*Tablet styles here*/
   
   /* --------------- Base Header - Footer Styles --------------- */
-/* ====================================
-   Home Page
-   ==================================== */
+/* ==========================================================================
+    Tablet Styles - Homepage
+   ========================================================================== */
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -478,9 +477,9 @@ aside .content-wrapper {
     margin-bottom: 0;
   }
 
-/* ====================================
-   About Page
-   ==================================== */
+/* ==========================================================================
+    Tablet Styles - About Page
+   ========================================================================== */
    .mission-content {
      display: flex;
      justify-content: space-between;
@@ -497,9 +496,9 @@ aside .content-wrapper {
      align-items: center;
    }
 
-/* ====================================
-   FAQ Page
-   ==================================== */
+/* ==========================================================================
+    Tablet Styles - FAQ Page
+   ========================================================================== */
 
    .faq .content-wrapper {
     justify-content: space-between;
@@ -509,14 +508,56 @@ aside .content-wrapper {
     flex-basis: 45%;
 }
 
-  .faq h2 {
+    .faq h2 {
     width: 100%;
   }
 }
 
 
 @media only screen and (min-width: 1200px) {
-  /*Desktop styles here*/
+/* ==========================================================================
+    Desktop Styles - Homepage
+   ========================================================================== */
+  .content-wrapper {
+    max-width: 960px;
+    margin: 30px 0;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form-submission {
+    width: 33%;
+  }
+
+  .features .content-wrapper {
+    justify-content: flex-start;
+  }
+
+  .features .features-items {
+   flex-basis: 33%;
+   text-align: center;
+  }
+
+  .reviews article .reviews-content {
+    width: 45%;
+  }
+/* ==========================================================================
+    Desktop Styles - About Page
+   ========================================================================== */
+  .mission h2 {
+    width: 75%;
+  }
+
+   /* ==========================================================================
+    Desktop Styles - FAQ Page
+   ========================================================================== */
+  .faq h1 {
+    width: 100%;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
 }
 
 
