@@ -97,6 +97,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* General Styles */
+    
+   html {
+    font-size: 16px;
+   }
+
+   body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    }
+    
+   ul, 
+   ol {
+    list-style: none;
+    text-transform: uppercase;
+   }
+    
+   a {
+    color: #e2e3ed;
+    text-decoration: none;
+   }
+
+   h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+   }
+    
+   h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+   }
+    
+   h3, 
+   h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.80em;
+    font-weight: 500;
+   }
+    
+   p {
+     line-height: 1.5em;
+   }
+    
+   img {
+    
+   }
+    
+   figure {
+    
+   }
+    
+   address {
+    font-style: normal;
+   }
+    
+   .content-wrapper {
+    
+   }
 
 /* --------------- Base Header - Footer Styles --------------- */
 header,
@@ -176,8 +236,6 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
-
-
 
 /* ==========================================================================
     Mobile Styles - Homepage
@@ -522,6 +580,11 @@ aside .content-wrapper {
     max-width: 960px;
     margin: 30px 0;
   }
+
+  .hero-area h1 {
+    width: 70%;
+  }
+  
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form-submission {
