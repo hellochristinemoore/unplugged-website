@@ -144,11 +144,12 @@ textarea {
    }
     
    img {
-    
+    width: 100%;
    }
     
    figure {
-    
+    width: 100%;
+    margin: 16px 0;
    }
     
    address {
@@ -186,6 +187,10 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 70%;
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -206,6 +211,22 @@ header nav ul {
   width: 100vw;
   margin: calc(-1 * ((100vw - 100%) / 2));
   background-color: #3a3a3a; 
+}
+
+.hero-area {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #1b2821;
+}
+
+.features {
+  background-image: url('../img/outdoors.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333
 }
 
 footer {
@@ -509,6 +530,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 35%;
+  }
+
   header nav {
     display: flex;
     justify-content: flex-end;
@@ -559,14 +584,26 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
-    width: 48%;
-    align-items: flex-end;
+    align-items: flex-start;
+  }
+
+  .reviews h2 {
+    width: 85%;
   }
 
   .reviews figure {
     width: 48%;
     margin: 0;
   }
+
+  .reviews article .reviews-content {
+    width: 48%;
+  }
+
+  .reviews h4 {
+    width: 75%;
+    margin: 0;
+}
 
   /* Home Page - Footer */
   footer .content-wrapper {
