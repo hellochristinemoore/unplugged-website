@@ -656,6 +656,22 @@ input[type=button] {
      width: 45%;
    }
 
+   .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 45%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
    .contact-content {
      display: flex;
      justify-content: space-between;
@@ -752,6 +768,22 @@ article .reviews-content {
   
   .mission h2 {
     width: 75%;
+  }
+
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom:40%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
   }
 
    /* ==========================================================================
