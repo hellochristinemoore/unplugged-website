@@ -260,6 +260,10 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer i {
+  font-size: 1.5em;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -344,6 +348,11 @@ input[type=button] {
 .features p {
   margin: 0;
   text-align: center;
+}
+
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Home page - Reviews Section */
@@ -592,6 +601,7 @@ input[type=button] {
 
   .features .features-items {
     justify-content: center;
+    flex-direction: column;   /* Place the icons above the caption */
   }
 
   .features .features-item-description {
@@ -632,7 +642,9 @@ input[type=button] {
     text-align: center;
   }
 
-  .footer-content 
+ .social-icons p {
+   justify-content: space-between;
+ }
 
   footer .social {
     width: 40%;
