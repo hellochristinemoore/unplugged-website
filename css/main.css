@@ -154,10 +154,6 @@ textarea {
    address {
     font-style: normal;
    }
-    
-   .content-wrapper {
-    
-   }
 
 /* --------------- Base Header - Footer Styles --------------- */
 header,
@@ -243,10 +239,10 @@ footer p {
 footer .content-wrapper {
   width: 55%;
 }
-
+ /*
 footer .contact {
   margin-bottom: 50px;
-}
+} */
 
 footer .social-icons {
   display: flex;
@@ -300,12 +296,12 @@ input[type=text] {
   width: 100%;
   color: #9d9ea4;
   font-style: italic;
-  padding: 1em;
+  padding: 0.6em;
 }
  
 input[type=button] {
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   margin-top: 20px;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -527,7 +523,7 @@ input[type=button] {
    ========================================================================== */
   .content-wrapper {
     max-width: 640px;
-    margin: 50px 0;
+    margin: 50px 0 80px 0;
   }
 
   h1 {
@@ -555,6 +551,7 @@ input[type=button] {
   header .content-wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 10px 0;
   }
 
   header figure {
@@ -576,7 +573,6 @@ input[type=button] {
   .header-divider {
     display: none;
   }
-
   /* Home Page - Hero area */
 
   /* Home Page - Aside */
@@ -593,6 +589,10 @@ input[type=button] {
 
   /* Home Page - Features */
 
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features article {
     align-items: center;
     flex-flow: column wrap;
@@ -605,7 +605,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 75%;
   }
 
   /* Home Page - Reviews */
@@ -665,7 +665,7 @@ input[type=button] {
    }
 
    .mission-content p {
-     width: 45%;
+     width: 47%;
    }
 
    .map figure {
@@ -700,7 +700,7 @@ input[type=button] {
 }
 
     .faq-content {
-    flex-basis: 45%;
+    flex-basis: 47%;
 }
 
     .faq h2 {
@@ -767,6 +767,12 @@ input[type=button] {
 article .reviews-content {
     width: 100%;
   }
+
+  footer .footer-content {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
 /* ==========================================================================
     Desktop Styles - About Page
    ========================================================================== */
@@ -808,7 +814,6 @@ article .reviews-content {
   .faq-content {
     flex-basis: 45%;
   }
-
 }
 
 
