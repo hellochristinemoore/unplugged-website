@@ -135,7 +135,7 @@ textarea {
    h3, 
    h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.125em;
+    font-size: 1.3em;
     font-weight: 500;
    }
     
@@ -239,10 +239,10 @@ footer p {
 footer .content-wrapper {
   width: 55%;
 }
- /*
-footer .contact {
+
+footer .footer-content {
   margin-bottom: 50px;
-} */
+}
 
 footer .social-icons {
   display: flex;
@@ -296,7 +296,7 @@ input[type=text] {
   width: 100%;
   color: #9d9ea4;
   font-style: italic;
-  padding: 0.6em;
+  padding: 0.8em;
 }
  
 input[type=button] {
@@ -527,7 +527,11 @@ input[type=button] {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.7em;
+  }
+
+  .hero-area h1 {
+    width: 80%;
   }
 
   h2 {
@@ -600,7 +604,7 @@ input[type=button] {
   }
 
   .features .features-items {
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;   /* Place the icons above the caption */
   }
 
@@ -719,7 +723,7 @@ input[type=button] {
   }
 
   h1 {
-    font-size: 3.75em;
+    font-size: 3.2em;
   }
 
   h2 {
